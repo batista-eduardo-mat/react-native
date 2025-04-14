@@ -1,10 +1,22 @@
-import { BasicTypes } from './typescript/BasicTypes';
+
+import { 
+  // BasicTypes,
+  // ObjectLiterals,
+  BasicFunctions
+ } from './typescript';
+
+ import {
+  Counter,
+ } from './components';
+
 function App() {
   return (
     <main>
       <h1>Introducción a TypeScript - React</h1>
-      {}
-      <BasicTypes/>
+      {/* {<BasicTypes/>} */}
+      {/* <ObjectLiterals/> */}
+      {/* <BasicFunctions/> */}
+      <Counter/>
     </main>
   )
 }
