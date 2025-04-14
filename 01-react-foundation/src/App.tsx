@@ -2,11 +2,12 @@
 import { 
   // BasicTypes,
   // ObjectLiterals,
-  BasicFunctions
+  // BasicFunctions
  } from './typescript';
 
  import {
-  Counter,
+  // Counter,
+  CounterWithHook,
  } from './components';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       {/* {<BasicTypes/>} */}
       {/* <ObjectLiterals/> */}
       {/* <BasicFunctions/> */}
-      <Counter/>
+      {/* <Counter/> */}
+    <CounterWithHook/>
     </main>
   )
 }
