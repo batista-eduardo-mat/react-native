@@ -32,7 +32,7 @@ Crear un módulo nativo en iOS usando Swift:
 Si quieres integrar vistas nativas en React Native, debes aprender:
 **Android:**
 
-- Crear una clase que extienda SimpleViewManager<View>.
+- Crear una clase que extienda SimpleViewManager.
 - Sobrescribir createViewInstance() para devolver la vista nativa.
 - Registrar la vista en UIManager.
 
